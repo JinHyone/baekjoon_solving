@@ -48,3 +48,8 @@ for ans in answers:
 
 
 print(' '.join(list(map(str, ansd.values()))))
+
+'''
+	아이디어: 이분 탐색으로 정답 값보다 1 작은(정답이 있으면) 인덱스 찾고
+	거기서 반복문 통해서 정답 값 개수 계산
+'''
